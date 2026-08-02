@@ -1,627 +1,286 @@
 <!DOCTYPE html>
-<html lang="zxx">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Raghvendra Vishwakarma - Software Developer</title>
-    <meta name="robots" content="noindex, follow" />
-    <meta name="description"
-        content="Portfolio of Raghvendra Vishwakarma, a skilled Software Developer specializing in Laravel, PHP, and AWS">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
-
-    <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
-    <link rel="stylesheet" href="assets/css/style.min.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raghvendra Vishwakarma — Software Developer</title>
+<meta name="description" content="Raghvendra Vishwakarma, Software Developer specializing in Java/Spring Boot, PHP/Laravel and AWS. 3+ years building scalable full-stack applications.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 fill=%22%23E8A33D%22>◆</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.min.css">
 </head>
 <body>
-    <main class="main-wrapper">
-        <header class="header-section sticky-header d-none d-lg-block">
-            <div class="header-wrapper">
-                <div class="container">
-                    <div class="row justify-content-between align-items-center">
-                        <div class="col">
-                            <!-- Start Header Logo -->
-                            <a href="#index" class="header-logo">
-                                <img src="assets/images/logo/logo.png" alt="Raghvendra Vishwakarma">
-                            </a>
-                            <!-- End Header Logo -->
-                        </div>
-                        <div class="col-auto">
-                            <!-- Start Header Menu -->
-                            <ul class="header-nav">
-                                <li><a href="#index">Home</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#skills">Skills</a></li>
-                                <li><a href="#projects">Projects</a></li>
-                                <li><a href="#certifications">Certifications</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                            </ul>
-                            <!-- End Header Menu -->
-                        </div>
-                        <div class="col">
-                            <div class="header-btn-link text-end">
-                                <a href="assets/resume/Raghvendra_Software_Developer.pdf" class="btn btn-sm btn-outline-one icon-space-left" target="_blank">Resume<i
-                                        class="icofont-double-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- .....:::::: End Header Section :::::.... -->
-
-        <!-- .....:::::: Start Mobile Header Section :::::.... -->
-        <div class="mobile-header d-block d-lg-none">
-            <div class="container">
-                <div class="row align-items-center justify-content-between">
-                    <div class="col">
-                        <div class="mobile-logo">
-                            <a href="#index"><img src="assets/images/logo/logo.png" alt="Raghvendra Vishwakarma"></a>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="mobile-action-link text-end">
-                            <a href="#mobile-menu-offcanvas" class="offcanvas-toggle offside-menu"><i
-                                    class="icofont-navigation-menu"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-nav" id="siteNav">
+  <div class="nav-inner">
+    <a class="logo" href="#home">RV<span class="dot">.</span>dev</a>
+    <input type="checkbox" id="nav-check">
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#stack">Stack</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a class="resume-btn" href="https://raghvendra-vishwakarma.vercel.app/assets/resume/Raghvendra_Software_Developer.pdf" target="_blank" rel="noopener">Resume</a></li>
+    </ul>
+    <label class="nav-toggle-label" for="nav-check" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </label>
+  </div>
+</header>
+<main id="main">
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>Raghvendra Vishwakarma<br><span class="accent">— Software Developer.</span></h1>
+        <p class="role-line">Building backend systems in Java &amp; Spring Boot, shipping products fast in PHP &amp; Laravel, deploying both on AWS.</p>
+        <p class="lede">3+ years turning business ideas into scalable, production-ready applications — from database design to cloud deployment.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="https://raghvendra-vishwakarma.vercel.app/assets/resume/Raghvendra_Software_Developer.pdf" target="_blank" rel="noopener">↓ Download Resume</a>
+          <a class="btn btn-ghost" href="#projects">View Work</a>
+          <a class="btn btn-ghost" href="mailto:ramanvishwa121@gmail.com">Email Me</a>
         </div>
-        <!-- .....:::::: Start MobileHeader Section :::::.... -->
-
-        <!--  Start Offcanvas Mobile Menu Section -->
-        <div id="mobile-menu-offcanvas" class="offcanvas offcanvas-rightside offcanvas-mobile-menu-section">
-            <!-- Start Offcanvas Header -->
-            <div class="offcanvas-header text-end">
-                <button class="offcanvas-close"><i class="icofont-close-line"></i></button>
-            </div> <!-- End Offcanvas Header -->
-            <!-- Start Offcanvas Mobile Menu Wrapper -->
-            <div class="offcanvas-mobile-menu-wrapper">
-                <!-- Start Mobile Menu  -->
-                <div class="mobile-menu-bottom">
-                    <!-- Start Mobile Menu Nav -->
-                    <div class="offcanvas-menu">
-                        <ul>
-                            <li><a href="#index"><span>Home</span></a></li>
-                            <li><a href="#about"><span>About</span></a></li>
-                            <li><a href="#projects"><span>Projects</span></a></li>
-                            <li><a href="#contact"><span>Contact</span></a></li>
-                        </ul>
-                    </div> <!-- End Mobile Menu Nav -->
-                </div> <!-- End Mobile Menu -->
-
-                <!-- Start Mobile contact Info -->
-                <div class="mobile-contact-info text-center">
-                    <ul class="social-link">
-                        <li><a target="_blank" href="https://www.linkedin.com/in/raghav2121"><i
-                                    class="icofont-linkedin"></i></a></li>
-                        <li><a target="_blank" href="https://github.com/raghav993"><i class="icofont-github"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- End Mobile contact Info -->
-
-            </div> <!-- End Offcanvas Mobile Menu Wrapper -->
+        <div class="social-row">
+          <a href="https://www.linkedin.com/in/raghav2121" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="3"/><line x1="7.5" y1="10.5" x2="7.5" y2="16.5"/><circle cx="7.5" cy="7" r="0.3" fill="currentColor"/><path d="M11.5 16.5v-4a2 2 0 0 1 4 0v4"/><line x1="11.5" y1="10.5" x2="11.5" y2="16.5"/></svg>
+          </a>
+          <a href="https://github.com/raghav993" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2a10 10 0 0 0-3.16 19.5c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.1.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+          </a>
+          <a href="https://twitter.com/Raghvendr83981" target="_blank" rel="noopener" aria-label="X / Twitter">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4l16 16M20 4L4 20"/></svg>
+          </a>
         </div>
-
-        <!-- Offcanvas Overlay -->
-        <div class="offcanvas-overlay"></div>
-
-        <!-- ...::: Start Hero Section :::... -->
-        <div class="hero-section section-dark-blue-bg" id="index">
-            <div class="hero-wrapper">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xxl-7">
-                            <div class="hero-content">
-                                <h3 class="title-big">Hello! I'm</h3>
-                                <h2 class="title-large">
-                                    <span id="typed-first-name"></span><br>
-                                    <span id="typed-last-name" class="shape-mark"></span>
-                                </h2>
-                                <p>Software Developer specializing in Laravel, PHP, and AWS</p>
-
-                                <a href="assets/resume/Raghvendra_Software_Developer.pdf" target="_blank"
-                                    class="btn btn-xl btn-outline-one icon-space-left">Get Resume <i
-                                        class="icofont-download"></i></a>
-
-                                <!-- <div class="video-link"> -->
-                                    <!-- <a class="wave-btn" href="#" data-autoplay="true"
-                                        data-vbtype="video">
-                                        <div class="ripple"><i class="icofont-ui-play"></i></div>
-                                    </a> -->
-                                    <!-- <span class="video-text"> Watch Video</span> -->
-                                <!-- </div> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="hero-shape hero-top-shape">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <div class="hero-shape hero-bottom-shape">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-
-                <div class="hero-portrait">
-                    <div class="image">
-                        <img class="img-fluid" src="assets/images/portrait/portrait-hero.png"
-                            alt="Raghvendra Vishwakarma">
-
-                        <div class="image-half-round-shape"></div>
-                        <div class="social-link">
-                            <a href="https://www.linkedin.com/in/raghav2121" target="_blank"><i
-                                    class="icofont-linkedin"></i></a>
-                            <a href="https://github.com/raghav993" target="_blank"><i class="icofont-github"></i></a>
-                            <a href="https://raghvendra-vishwakarma.vercel.app" target="_blank"><i class="icofont-globe"></i></a>
-
-                        </div>
-                    </div>
-                </div>
+      </div>
+      <div class="terminal" role="img" aria-label="Terminal summary: whoami Raghvendra Vishwakarma, software developer. Stack: Java, Spring Boot, PHP, Laravel, AWS. Status: available for new opportunities.">
+        <div class="terminal-bar">
+          <span></span><span></span><span></span>
+          <span class="path">raghvendra@career — zsh</span>
+        </div>
+        <div class="terminal-body">
+          <span class="cmd">whoami</span>
+          <span class="out">Raghvendra Vishwakarma — Full-Stack / Backend Developer</span>
+          <span class="cmd">cat focus.txt</span>
+          <span class="out dim">Java · Spring Boot · Microservices · PHP · Laravel</span>
+          <span class="cmd">stack --cloud</span>
+          <div class="chip-row">
+            <span class="mchip">AWS EC2</span><span class="mchip">S3</span><span class="mchip">RDS</span><span class="mchip">Docker</span><span class="mchip">GitHub Actions</span>
+          </div>
+          <span class="cmd">status</span>
+          <span class="status-pill"><span class="blip"></span> available for new opportunities</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap reveal">
+      <div class="section-head reveal-item">
+        <p class="eyebrow">01 · About</p>
+        <h2>A developer who ships across the whole stack.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="reveal-item">
+          <p><strong>I'm a full-stack software developer</strong> with close to three years of professional experience designing and building applications that businesses actually rely on. My core strength is moving comfortably between two worlds: structured, enterprise-grade backend systems in <strong>Java and Spring Boot</strong>, and fast-moving, client-facing web products in <strong>PHP and Laravel</strong>.</p>
+          <p>I don't stop at "it works." I care about how a system is architected, how it performs under load, and how it gets deployed — which is why I've built hands-on experience with <strong>AWS, Docker, and CI/CD pipelines</strong> alongside the day-to-day coding.</p>
+          <p>Outside of core development, I've shipped e-commerce checkouts, payment integrations (Razorpay, PhonePe), and booking platforms end-to-end — from database schema to the interface a customer actually clicks through.</p>
+        </div>
+        <div class="fact-card reveal-item">
+          <div class="fact-row"><span class="k">Location</span><span class="v">Indore, India</span></div>
+          <div class="fact-row"><span class="k">Experience</span><span class="v">3+ years</span></div>
+          <div class="fact-row"><span class="k">Current role</span><span class="v">Software Developer, T&amp;M Services</span></div>
+          <div class="fact-row"><span class="k">Focus</span><span class="v">Java · Laravel · AWS</span></div>
+          <div class="fact-row"><span class="k">Email</span><span class="v">ramanvishwa121@gmail.com</span></div>
+          <div class="fact-row"><span class="k">Phone</span><span class="v">+91 99931 03682</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- STACK -->
+  <section id="stack" style="background:var(--paper-2);">
+    <div class="wrap reveal">
+      <div class="section-head reveal-item">
+        <p class="eyebrow">02 · Stack</p>
+        <h2>Technical toolkit</h2>
+      </div>
+      <div class="stack-grid">
+        <div class="stack-card reveal-item">
+          <div class="stack-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg></div>
+          <h3>Backend</h3>
+          <div class="tag-list">
+            <span class="tag">Java (OOP)</span><span class="tag">Spring Boot</span><span class="tag">Microservices</span><span class="tag">PHP</span><span class="tag">Laravel</span><span class="tag">REST APIs</span>
+          </div>
+        </div>
+        <div class="stack-card reveal-item">
+          <div class="stack-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="14" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/></svg></div>
+          <h3>Frontend</h3>
+          <div class="tag-list">
+            <span class="tag">JavaScript ES6</span><span class="tag">jQuery / AJAX</span><span class="tag">Bootstrap 5</span><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">Responsive UI</span>
+          </div>
+        </div>
+        <div class="stack-card reveal-item">
+          <div class="stack-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6"/><path d="M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg></div>
+          <h3>Database</h3>
+          <div class="tag-list">
+            <span class="tag">MySQL</span><span class="tag">PostgreSQL</span><span class="tag">SQLite</span><span class="tag">Query Optimization</span><span class="tag">Caching</span>
+          </div>
+        </div>
+        <div class="stack-card reveal-item">
+          <div class="stack-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17.5 19H6a4 4 0 1 1 .5-7.97A5.5 5.5 0 0 1 17 10a3.5 3.5 0 0 1 .5 6.99Z"/></svg></div>
+          <h3>Cloud &amp; DevOps</h3>
+          <div class="tag-list">
+            <span class="tag">AWS EC2/S3/RDS</span><span class="tag">Docker</span><span class="tag">GitHub Actions</span><span class="tag">Git</span><span class="tag">Deployment</span>
+          </div>
+        </div>
+        <div class="stack-card reveal-item">
+          <div class="stack-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+          <h3>Tools &amp; Practices</h3>
+          <div class="tag-list">
+            <span class="tag">SOLID Principles</span><span class="tag">MVC</span><span class="tag">JUnit / Mockito</span><span class="tag">Maven</span><span class="tag">Agile</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="wrap reveal">
+      <div class="section-head reveal-item">
+        <p class="eyebrow">03 · Experience</p>
+        <h2>Build log</h2>
+      </div>
+      <div class="log">
+        <div class="log-item current reveal-item">
+          <span class="log-date">2025 — Present</span>
+          <div class="log-card">
+            <img src="https://raghvendra-vishwakarma.vercel.app/assets/images/work/tnmlogo.jpg" alt="T&amp;M Services Consulting logo" loading="lazy">
+            <div class="log-content">
+              <h3>Software Developer</h3>
+              <span class="company">T&amp;M Services Consulting Pvt. Ltd</span>
+              <p class="loc">Dahisar (E), Mumbai, Maharashtra</p>
+              <a class="site-link" href="https://www.tnmhr.com" target="_blank" rel="noopener">→ tnmhr.com</a>
             </div>
+          </div>
         </div>
-        <!-- ...::: Start About Section :::... -->
-        <div class="about-section section-gap-tb-165" id="about">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-10">
-                        <!-- About Content -->
-                        <div class="about-content">
-                            <span class="section-tag">About Me</span>
-                            <h2 class="section-title">I am a dedicated full-stack developer</h2>
-                            <p>With a passion for crafting innovative software solutions. With years of experience in
-                                delivering customized and scalable projects, I help businesses transform their ideas
-                                into reality through technology and creativity.</p>
-
-                            <div class="personal-info">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <ul class="info-list">
-                                            <li>
-                                                <span>Name :</span>
-                                                <strong>Raghvendra Vishwakarma</strong>
-                                            </li>
-                                            <li>
-                                                <span>Date of birth : </span>
-                                                <strong> 12 June 2000</strong>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <ul class="info-list">
-                                            <li>
-                                                <span>Address :</span>
-                                                <strong>Near LIG Square, Indore, MP, In 452011</strong>
-                                            </li>
-                                            <li>
-                                                <span>Email :</span>
-                                                <strong>ramanvishwa121@gmail.com</strong>
-                                            </li>
-                                            <li>
-                                                <span>Phone :</span>
-                                                <strong>+91 9993103682</strong>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Work Experience -->
-                             <!-- add company image -->
-                            <div class="work-experience-box">
-                                <div class="experience-img">
-                                    <img src="assets/images/project/wtm-logo.png" class="mx-2" alt="WTM IT Limited">
-                                    <div class="experience-badge mt-3">
-                                        <span>2023 - Present</span>
-                                    </div>
-                                </div>
-                                <div class="experience-content">
-                                    <h4>Software Developer</h4>
-                                    <h5>WTM IT Limited</h5>
-                                    <p>102, Onam Plaza, beside Industry House, New Palasia, Indore, Madhya Pradesh
-                                        452003</p>
-                                    <a href="https://wtmit.com" target="_blank" class="website-link">→ Go to website</a>
-                                </div>
-                            </div>
-
-                            <a href="resume/Raghvendra_Software_Developer.pdf" target="_blank"
-                                class="btn btn-xl btn-outline-one icon-space-left">Download Resume <i
-                                    class="icofont-download"></i></a>
-                        </div>
-                    </div>
-                </div>
+        <div class="log-item reveal-item">
+          <span class="log-date">2023 — 2025</span>
+          <div class="log-card">
+            <img src="https://raghvendra-vishwakarma.vercel.app/assets/images/work/wtm-logo.png" alt="WTM IT Limited logo" loading="lazy">
+            <div class="log-content">
+              <h3>Software Developer</h3>
+              <span class="company">WTM IT Limited</span>
+              <p class="loc">New Palasia, Indore, Madhya Pradesh</p>
+              <a class="site-link" href="https://wtmit.com" target="_blank" rel="noopener">→ wtmit.com</a>
             </div>
+          </div>
         </div>
-        <!-- ...::: End About Section :::... -->
-        <!-- ...::: Start Skill Display Section :::... -->
-        <div class="skill-display-section section-gap-tb-165 section-bg pos-relative" id="skills">
-            <div class="skill-display-section-box">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-6 col-xxl-5">
-                            <!-- Start Section Content -->
-                            <div class="section-content">
-                                <span class="section-tag">Technical Skills</span>
-                                <h2 class="section-title">My Technical Expertise</h2>
-                                <p>Full-stack developer with comprehensive experience in building scalable web
-                                    applications using modern technologies.</p>
-                                <a href="assets/resume/Raghvendra_Software_Developer.pdf"
-                                    class="btn btn-xl btn-outline-one icon-space-left">Get Resume <i
-                                        class="icofont-download"></i></a>
-                            </div>
-                            <!-- End Section Content -->
-                        </div>
-
-                        <div class="col-xl-6 col-xxl-6 offset-xxl-1">
-                            <!-- Start Skill Display Wrapper -->
-                            <div class="skill-display-wrapper professional-skills">
-                                <!-- Frontend Skills -->
-                                <div class="skill-category">
-                                    <h4 class="skill-heading">Frontend</h4>
-                                    <ul class="skill-tags">
-                                        <li>JavaScript (ES6)</li>
-                                        <li>jQuery</li>
-                                        <li>Bootstrap 5</li>
-                                        <li>HTML5</li>
-                                        <li>CSS3</li>
-                                    </ul>
-                                </div>
-
-                                <!-- Backend Skills -->
-                                <div class="skill-category">
-                                    <h4 class="skill-heading">Backend</h4>
-                                    <ul class="skill-tags">
-                                        <li>PHP</li>
-                                        <li>Laravel</li>
-                                        <li>RESTful APIs</li>
-                                        <li>Artisan Commands</li>
-                                        <li>Task Scheduling</li>
-                                    </ul>
-                                </div>
-
-                                <!-- Database & DevOps -->
-                                <div class="skill-category">
-                                    <h4 class="skill-heading">Database & DevOps</h4>
-                                    <ul class="skill-tags">
-                                        <li>MySQL</li>
-                                        <li>SQLite</li>
-                                        <li>AWS (EC2, S3, IAM)</li>
-                                        <li>GitHub Actions</li>
-                                        <li>Docker</li>
-                                    </ul>
-                                </div>
-
-                                <!-- Methodologies -->
-                                <div class="skill-category">
-                                    <h4 class="skill-heading">Methodologies</h4>
-                                    <ul class="skill-tags">
-                                        <li>MVC Architecture</li>
-                                        <li>SOLID Principles</li>
-                                        <li>Repository Pattern</li>
-                                        <li>Service Layer</li>
-                                        <li>CI/CD Pipelines</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- End Skill Display Wrapper -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="skill-display-shape"></div>
+      </div>
+    </div>
+  </section>
+  <!-- PROJECTS -->
+  <section id="projects" style="background:var(--paper-2);">
+    <div class="wrap reveal">
+      <div class="section-head reveal-item">
+        <p class="eyebrow">04 · Projects</p>
+        <h2>Recent work</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card reveal-item">
+          <div class="project-thumb"><img src="https://raghvendra-vishwakarma.vercel.app/assets/images/project/tolxa.png" alt="Tolxa vacation rental platform screenshot" loading="lazy"></div>
+          <div class="project-body">
+            <h3>Tolxa — Vacation Rental Platform</h3>
+            <p>A property booking platform with search, listings, and integrated online payments built for scale.</p>
+            <div class="tag-list"><span class="tag">Laravel</span><span class="tag">Bootstrap 5</span><span class="tag">MySQL</span><span class="tag">Razorpay</span></div>
+            <a class="project-link" href="https://tolxa.com" target="_blank" rel="noopener">View project <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="19" x2="19" y2="5"/><polyline points="8 5 19 5 19 16"/></svg></a>
+          </div>
+        </article>
+        <article class="project-card reveal-item">
+          <div class="project-thumb"><img src="https://raghvendra-vishwakarma.vercel.app/assets/images/project/veloxinfra.png" alt="Veloxinfra real estate platform screenshot" loading="lazy"></div>
+          <div class="project-body">
+            <h3>Veloxinfra — Real Estate Platform</h3>
+            <p>A property listing and lead-management platform with secure online payments for real estate deals.</p>
+            <div class="tag-list"><span class="tag">Laravel</span><span class="tag">Bootstrap 5</span><span class="tag">JavaScript</span><span class="tag">Razorpay</span></div>
+            <a class="project-link" href="https://veloxinfra.com" target="_blank" rel="noopener">View project <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="19" x2="19" y2="5"/><polyline points="8 5 19 5 19 16"/></svg></a>
+          </div>
+        </article>
+        <article class="project-card reveal-item">
+          <div class="project-thumb"><img src="https://raghvendra-vishwakarma.vercel.app/assets/images/project/bothwings.png" alt="Bothwings e-learning platform screenshot" loading="lazy"></div>
+          <div class="project-body">
+            <h3>Bothwings — E-Learning Platform</h3>
+            <p>A course delivery platform with content management and mobile-first payment checkout.</p>
+            <div class="tag-list"><span class="tag">Core PHP</span><span class="tag">Bootstrap 5</span><span class="tag">PhonePe Gateway</span></div>
+            <span class="project-link" style="color:var(--text-muted-on-paper);">Private project</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <div class="wrap reveal">
+      <div class="section-head reveal-item">
+        <p class="eyebrow">05 · Certifications</p>
+        <h2>Courses &amp; certifications</h2>
+      </div>
+      <div class="cert-grid">
+        <div class="cert-card reveal-item">
+          <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17.5 19H6a4 4 0 1 1 .5-7.97A5.5 5.5 0 0 1 17 10a3.5 3.5 0 0 1 .5 6.99Z"/></svg></div>
+          <div>
+            <h3>AWS Cloud Practitioner Essentials</h3>
+            <p class="issuer">AWS Skill Builder</p>
+            <span class="date">Completed July 2025</span>
+            <a href="https://raghvendra-vishwakarma.vercel.app/assets/docs/AWS-Certification.jpg" target="_blank" rel="noopener">View certificate →</a>
+          </div>
         </div>
-        <!-- ...::: End Skill Display Section :::... -->
-        <!-- ...::: Start Project Display Section :::... -->
-        <div class="project-display-section section-gap-tb-165" id="projects">
-            <div class="project-display-box">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-xl-12 d-block d-md-flex justify-content-between">
-                            <!-- Start Section Content -->
-                            <div class="section-content pos-relative">
-                                <span class="section-tag">Featured Projects</span>
-                                <h2 class="section-title">My Recent Work</h2>
-                            </div>
-                            <!-- End Section Content -->
-
-                            <div class="default-nav-style mt-6 mb-6 mb-md-0 ">
-                                <!-- If we need navigation buttons -->
-                                <div class="slider-button button-prev"><i class="icofont-double-left"></i></div>
-                                <div class="slider-button button-next"><i class="icofont-double-right"></i></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-display-wrapper">
-                    <div class="project-display-slider">
-                        <!-- Swiper -->
-                        <div class="swiper-container">
-                            <div class="swiper-wrapper">
-                                <!-- Slides -->
-                                <!-- Start Project Box Single Item -->
-                                <div class="project-box-single-item swiper-slide">
-                                    <div class="img-box">
-                                        <div class="bg-overlay"></div>
-                                        <div class="bg-image">
-                                            <img src="assets/images/project/tolxa.png" alt="Tolxa">
-                                        </div>
-                                        <div class="image">
-                                            <img src="assets/images/project/tolxa.png" alt="Tolxa">
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        <h4 class="title"><a href="https://tolxa.com" target="_blank">Tolxa - Vacation
-                                                Rental Platform</a></h4>
-                                        <ul class="catagory-nav-item">
-                                            <li><a href="#">Bootstrap 5</a></li>
-                                            <li><a href="#">JavaScript</a></li>
-                                            <li><a href="#">Laravel</a></li>
-                                            <li><a href="#">MySQL</a></li>
-                                            <li><a href="#">Razorpay</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- End Project Box Single Item -->
-                                <!-- Start Project Box Single Item -->
-                                <div class="project-box-single-item swiper-slide">
-                                    <div class="img-box">
-                                        <div class="bg-overlay"></div>
-                                        <div class="bg-image">
-                                            <img src="assets/images/project/veloxinfra.png" alt="Veloxinfra">
-                                        </div>
-                                        <div class="image">
-                                            <img src="assets/images/project/veloxinfra.png" alt="Veloxinfra">
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        <h4 class="title"><a href="https://veloxinfra.com" target="_blank">Veloxinfra -
-                                                Real Estate Platform</a></h4>
-                                        <ul class="catagory-nav-item">
-                                            <li><a href="#">Laravel</a></li>
-                                            <li><a href="#">Bootstrap 5</a></li>
-                                            <li><a href="#">JavaScript</a></li>
-                                            <li><a href="#">Razorpay</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- End Project Box Single Item -->
-                                <!-- Start Project Box Single Item -->
-                                <div class="project-box-single-item swiper-slide">
-                                    <div class="img-box">
-                                        <div class="bg-overlay"></div>
-                                        <div class="bg-image">
-                                            <img src="assets/images/project/bothwings.png"
-                                                alt="WTM IT Limited">
-                                        </div>
-                                        <div class="image">
-                                            <img src="assets/images/project/bothwings.png"
-                                                alt="WTM IT Limited">
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        <h4 class="title"><a href="#">Bothwings - E-Learning Platform</a></h4>
-                                        <ul class="catagory-nav-item">
-                                            <li><a href="#">Bootstrap 5</a></li>
-                                            <li><a href="#">Core PHP</a></li>
-                                            <li><a href="#">PhonePay Payment Gateway</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- End Project Box Single Item -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="cert-card reveal-item">
+          <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17.5 19H6a4 4 0 1 1 .5-7.97A5.5 5.5 0 0 1 17 10a3.5 3.5 0 0 1 .5 6.99Z"/></svg></div>
+          <div>
+            <h3>AWS for Beginners</h3>
+            <p class="issuer">Great Learning Academy</p>
+            <span class="date">Completed July 2025</span>
+            <a href="https://raghvendra-vishwakarma.vercel.app/assets/docs/aws-by-greate-learning.jpg" target="_blank" rel="noopener">View certificate →</a>
+          </div>
         </div>
-        <!-- ...::: End Project Display Section :::... -->
-        <!-- ...::: Start Certifications Section :::... -->
-        <div class="certifications-section section-gap-tb-165" id="certifications">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <!-- Start Section Content -->
-                        <div class="section-content pos-relative text-center">
-                            <span class="section-tag">My Credentials</span>
-                            <h2 class="section-title">Courses & Certifications</h2>
-                            <p class="section-subtitle">Continuous learning is key to staying ahead in technology</p>
-                        </div>
-                        <!-- End Section Content -->
-                    </div>
-                </div>
-
-                <div class="row justify-content-center">
-                    <div class="col-lg-10">
-                        <div class="certifications-wrapper">
-                            <!-- Certification 1 -->
-                            <div class="certification-card">
-
-                                <div class="certification-content">
-                                    <h3>AWS Cloud Practitioner Essentials</h3>
-                                    <div class="certification-meta">
-                                        <span class="institute">AWS Skill Builder</span>
-                                        <span class="date">Completed: July 2025</span>
-                                    </div>
-                                    <a href="assets/docs/AWS Certification .pdf" class="view-certificate" target="_blank">View Certificate</a>
-                                </div>
-                            </div>
-
-                            <!-- Certification 2 -->
-                            <div class="certification-card">
-                               
-                                <div class="certification-content">
-                                    <h3>AWS for Beginners</h3>
-                                    <div class="certification-meta">
-                                        <span class="institute">Great Learning Academy</span>
-                                        <span class="date">Completed: July 2025</span>
-                                    </div>
-                                    <a href="assets/docs/aws by greate-learning.pdf" class="view-certificate" target="_blank">View Certificate</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="wrap contact-inner reveal">
+      <p class="eyebrow on-ink">06 · Contact</p>
+      <h2>Let's build something reliable together.</h2>
+      <p class="sub">Open to full-stack and backend developer roles. The fastest way to reach me is email — I usually reply within a day.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="mailto:ramanvishwa121@gmail.com">Email Me</a>
+        <a class="btn btn-ghost" href="https://wa.me/919993103682" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        <a class="btn btn-ghost" href="https://raghvendra-vishwakarma.vercel.app/assets/resume/Raghvendra_Software_Developer.pdf" target="_blank" rel="noopener">↓ Resume</a>
+      </div>
+      <div class="contact-methods">
+        <div class="contact-method"><span class="k">Email</span><a class="v" href="mailto:ramanvishwa121@gmail.com">ramanvishwa121@gmail.com</a></div>
+        <div class="contact-method"><span class="k">Phone</span><a class="v" href="tel:+919993103682">+91 99931 03682</a></div>
+        <div class="contact-method"><span class="k">Location</span><span class="v">Indore, India</span></div>
+      </div>
+      <div class="contact-foot">
+        <span class="copyright">© <span id="year"></span> Raghvendra Vishwakarma — built with HTML &amp; CSS</span>
+        <div class="social-row">
+          <a href="https://www.linkedin.com/in/raghav2121" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="3"/><line x1="7.5" y1="10.5" x2="7.5" y2="16.5"/><circle cx="7.5" cy="7" r="0.3" fill="currentColor"/><path d="M11.5 16.5v-4a2 2 0 0 1 4 0v4"/><line x1="11.5" y1="10.5" x2="11.5" y2="16.5"/></svg>
+          </a>
+          <a href="https://github.com/raghav993" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2a10 10 0 0 0-3.16 19.5c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.1.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+          </a>
+          <a href="https://twitter.com/Raghvendr83981" target="_blank" rel="noopener" aria-label="X / Twitter">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4l16 16M20 4L4 20"/></svg>
+          </a>
         </div>
-        <!-- ...::: End Certifications Section :::... -->
-        <!-- ...::: Start Footer Section :::... -->
-        <!-- ...::: Start Footer Section :::... -->
-        <footer class="footer-section section-bg overflow-hidden pos-relative" id="contact">
-            <div class="footer-inner-shape-top-left"></div>
-            <div class="footer-inner-shape-top-right"></div>
-            <div class="footer-section-top section-gap-t-165">
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <!-- Start Section Content -->
-                            <div class="section-content pos-relative text-center">
-                                <span class="section-tag">Get In Touch</span>
-                                <h2 class="section-title">Contact Me</h2>
-                            </div>
-                            <!-- End Section Content -->
-                        </div>
-                    </div>
-                    <div class="footer-top-wrapper text-center">
-                        <div class="row">
-                            <div class="col-12">
-                                <form action="#" class="footer-newsletter">
-                                    <input type="email" placeholder="Your Email">
-                                    <button class="submit-btn" type="submit">Send Message</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-center section-gap-tb-165">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-10">
-                                <div class="row justify-content-center contact-methods">
-                                    <!-- Phone -->
-                                    <div class="col-md-4 col-sm-6 mb-5">
-                                        <div class="contact-method">
-                                            <div class="contact-icon">
-                                                <i class="icofont-phone"></i>
-                                            </div>
-                                            <h4>Phone</h4>
-                                            <a href="tel:+919993103682">+91 9993103682</a>
-                                        </div>
-                                    </div>
-
-                                    <!-- Email -->
-                                    <div class="col-md-4 col-sm-6 mb-5">
-                                        <div class="contact-method">
-                                            <div class="contact-icon">
-                                                <i class="icofont-envelope-open"></i>
-                                            </div>
-                                            <h4>Email</h4>
-                                            <a href="mailto:ramanvishwa121@gmail.com">ramanvishwa121@gmail.com</a>
-                                        </div>
-                                    </div>
-
-                                    <!-- WhatsApp -->
-                                    <div class="col-md-4 col-sm-6 mb-5">
-                                        <div class="contact-method">
-                                            <div class="contact-icon whatsapp-icon">
-                                                <i class="icofont-whatsapp"></i>
-                                            </div>
-                                            <h4>WhatsApp</h4>
-                                            <a href="https://wa.me/919993103682" target="_blank">Chat on WhatsApp</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Social Links -->
-                                <div class="social-links text-center mt-5">
-                                    <ul>
-                                        <li><a href="https://www.linkedin.com/in/raghav2121" target="_blank"
-                                                aria-label="LinkedIn"><i class="icofont-linkedin"></i></a></li>
-                                        <li><a href="https://github.com/raghav993" target="_blank"
-                                                aria-label="GitHub"><i class="icofont-github"></i></a></li>
-                                        <li><a href="https://twitter.com/Raghvendr83981" target="_blank"
-                                                aria-label="Twitter"><i class="icofont-twitter"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-bottom">
-                    <div class="container">
-                        <div
-                            class="row justify-content-center justify-content-md-between align-items-center flex-column-reverse flex-md-row">
-                            <div class="col-auto">
-                                <div class="footer-copyright">
-                                    <p class="copyright-text">&copy; 2023 <a href="index">Raghvendra Vishwakarma</a> -
-                                        Software Developer</p>
-                                </div>
-                            </div>
-                            <div class="col-auto">
-                                <a href="index" class="footer-logo">
-                                    <div class="logo">
-                                        <img src="assets/images/logo/logo.png" alt="Raghvendra Vishwakarma">
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </footer>
-        <!-- ...::: End Footer Section :::... -->
-        <!-- material-scrolltop button -->
-        <button class="material-scrolltop" type="button">↑</button>
-    </main>
-
-    <!-- Minify Version -->
-    <script src="assets/js/vendor.min.js"></script>
-    <script src="assets/js/plugins.min.js"></script>
-
-    <!--Main JS (Common Activation Codes)-->
-    <script src="assets/js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            // First name typing
-            var typedFirstName = new Typed('#typed-first-name', {
-                strings: ["Raghvendra"],
-                typeSpeed: 100,
-                backSpeed: 50,
-                backDelay: 1000,
-                startDelay: 500,
-                loop: false,
-                showCursor: true,
-                cursorChar: '|',
-                autoInsertCss: true,
-                onComplete: function () {
-                    // Start last name typing after first name completes
-                    setTimeout(function () {
-                        var typedLastName = new Typed('#typed-last-name', {
-                            strings: ["Vishwakarma"],
-                            typeSpeed: 100,
-                            backSpeed: 50,
-                            backDelay: 1000,
-                            startDelay: 0,
-                            loop: true,
-                            showCursor: true,
-                            cursorChar: '|',
-                            autoInsertCss: true
-                        });
-                    }, 500);
-                }
-            });
-        });
-    </script>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="assets/js/script.js" ></script>
 </body>
-
 </html>
